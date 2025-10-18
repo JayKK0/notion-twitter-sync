@@ -5,9 +5,9 @@ from notion_client import Client
 from scraper_x_metrics import get_metrics
 
 
-PROP_LINK  = "x.com Link"    # URL 컬럼명
-PROP_VIEWS = "Views on X"    # Number 컬럼명
-PROP_LIKES = "Likes"         # Number 컬럼명
+PROP_LINK  = "x.com Link"
+PROP_VIEWS = "Views on X"
+PROP_LIKES = "Likes"
 
 
 SLEEP_MIN, SLEEP_MAX = 2.5, 4.5
